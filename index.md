@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Bienvenue sur le site web de Amaury Ajasse
 
-You can use the [editor on GitHub](https://github.com/AmauryAjasse/ajasseamaury.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Présentation du projet
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ce projet a pour but d'évaluer mes compétences en Informatique Industrielle dans le cadre de l'UE Systèmes Embarqués suivi à l'ENS Paris-Saclay dans le MA EEA. Le but est d'utiliser un système d'exploitation temps réel (FreeRTOS) sur un microcontrôleur (STM32).
 
-### Markdown
+J'ai donc choisi de recréer un jeu très connu : le space invaders. A ce jeu, j'ai ausi décidé d'ajouter une musique afin d'utiliser la carte son du microcontrôleur STM32. L'utilisation de la carte son est la valeur ajoutée de mon projet et je vais entrer plus en détail dans son fonctionnement lors de ma présentation.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Problématiques amenées par le projet
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmauryAjasse/ajasseamaury.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Ce projet venait avec une principale problématique de partage des tâches sur le microcontrôleur STM32. En effet, de nombreuses tâches avaient besoin d'utiliser l'écran et il a donc fallut répartir cette utilisation de l'écran à l'aide de Mutexes.
